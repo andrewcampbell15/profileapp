@@ -43,6 +43,39 @@
     },
     "children": [
         {
+            "type": "AdMobBanner",
+            "label": "AdMob Banner",
+            "translatedName": "AdMob Banner",
+            "properties": {
+                "Visible": true,
+                "AdUnitID": "ca-app-pub-3940256099942544/6300978111",
+                "AdUnitID_iOS": "ca-app-pub-3940256099942544/6300978111",
+                "TestMode": true,
+                "Width": 375,
+                "Height": 32,
+                "X": 0,
+                "ParentId": "96ff0ecd-5794-4969-bbcf-86034312f824",
+                "Y": 191,
+                "RelativeX": 0,
+                "RelativeY": 191,
+                "position": "absolute",
+                "edgeOffsets": {
+                    "left": "40.93333333333333%",
+                    "top": "28.212703101920237%"
+                },
+                "style": {
+                    "position": "absolute",
+                    "left": "40.93333333333333%",
+                    "top": "28.212703101920237%",
+                    "display": "flex"
+                }
+            },
+            "children": [],
+            "id": "1009722b-4e05-43a8-bb34-f7f921ef1ba4",
+            "thunkableVersion": 423,
+            "name": "AdMob_Banner1"
+        },
+        {
             "type": "Image",
             "translatedName": "Image",
             "properties": {
@@ -756,11 +789,11 @@
             "translatedName": "Image",
             "properties": {
                 "resizeMode": "stretch",
-                "Height": 200,
-                "Width": 200,
+                "Height": 214,
+                "Width": 212,
                 "Visible": true,
-                "X": 87,
-                "Y": 238,
+                "X": 80,
+                "Y": 229,
                 "style": {
                     "marginTop": 0,
                     "marginBottom": 0,
@@ -786,10 +819,10 @@
                     "shadowRadius": 0
                 },
                 "position": "absolute",
-                "edgeOffsets": 238.29687499999994,
+                "edgeOffsets": 229,
                 "ParentId": "96ff0ecd-5794-4969-bbcf-86034312f824",
-                "RelativeX": 87,
-                "RelativeY": 238
+                "RelativeX": 80,
+                "RelativeY": 229
             },
             "children": [],
             "id": "f511ecbe-4847-4519-97b9-cb29742fe530",
